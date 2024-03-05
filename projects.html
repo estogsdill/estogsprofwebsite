@@ -13,6 +13,11 @@
                 font-family: sans-serif;
                 font-weight: 600;
             }
+            legend {
+                color: #AF7B8F;
+                font-family: sans-serif;
+                font-weight: 600;
+            }
             h4 {
                 color: #A39093;
                 font-family: sans-serif;
@@ -25,6 +30,11 @@
             }
             img {
                 width: 250px
+            }
+            label {
+                color: #A39093;
+                font-size: small;
+                font-family: sans-serif;
             }
         </style>
     </head>
@@ -40,9 +50,14 @@
         <h1>Woah it's my projects</h1>
         <p>Check it out it's my projects!!! Yipee!</p>
         <h4>Project 1</h4>
-        <p>AMD ITX Build</p>
+        <fieldset>
+            <legend>AMD ITX Build</legend>
         <image src="AMD ITX Photos\IMG20230203172009.jpg" alt="An assortment of PC components laid out on a table."></image>
         <image src="AMD ITX Photos\image.jpg" alt="A small form factor PC with the side panel off."></image>
-        <image src="AMD ITX Photos\IMG_1683.JPG" alt="A small form factor PC with the side panel on."></image>
+        <image src="AMD ITX Photos\IMG_1683.JPG" alt="A small form factor PC with the side panel on."></image><br>
+        <input type="radio" name="reaction" value="like" id="like"><label for="like">Like</label>
+        <input type="radio" name="reaction" value="dislike" id="dislike"><label for="dislike">Dislike</label><br>
+        <input type="submit">
+        </fieldset>
     </body>
 </html>
