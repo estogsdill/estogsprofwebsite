@@ -30,3 +30,38 @@ label {
     font-size: small;
     font-family: sans-serif;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+
+}
+.site-header {
+    background-color: #1E2424;
+}
+.site-nav {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 6%;
+    padding-right: 6%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    color: #AF7B8F;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+.menu {
+    color: #AF7B8F;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-decoration: underline;
+    display: flex;
+}
+.menu li {
+    
+}
